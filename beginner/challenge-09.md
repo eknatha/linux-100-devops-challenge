@@ -1,22 +1,29 @@
 # Challenge 09: Current Directory
 
-## Task
+## 🧩 Task
 Print current working directory.
 
-## Solution
+---
+
+<details>
+<summary>💡 Click to view solution</summary>
+
+### 🔹 Print current directory
 ```bash
 pwd
 ```
 
+**Example output:**
 ```bash
 pwd
 /current_working_Directory/
 ```
 
-Example - 
-```bash
-/root/ 
+### 🔹 Other examples
+```text
+/root/
 /home/username/
 /var/log
 ```
-     
+
+</details>
