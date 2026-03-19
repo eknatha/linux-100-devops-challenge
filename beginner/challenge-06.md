@@ -1,13 +1,26 @@
 # Challenge 06: View File Content
 
-## Task
+## 🧩 Task
 Display file content.
 
-## Solution
+---
+
+<details>
+<summary>💡 Click to view solution</summary>
+
+### 🔹 Using `cat`
 ```bash
 cat file.txt
+```
 
+### 🔹 Using `more`
+```bash
 more file.txt
+```
 
+### 🔹 Using `less`
+```bash
 less file.txt
 ```
+
+</details>
