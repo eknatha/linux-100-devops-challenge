@@ -1,9 +1,15 @@
 # Challenge 05: Change File Ownership
 
-## Task
+## 🧩 Task
 Change ownership of a file.
 
-## Solution
+---
+
+<details>
+<summary>💡 Click to view solution</summary>
+
 ```bash
 sudo chown user:group file.txt
 ```
+
+</details>
