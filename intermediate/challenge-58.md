@@ -310,7 +310,6 @@ tar -xzvf logs_$(date +"%Y-%m-%d").tar.gz -C /tmp/log_restore/
 ## 📚 Related Concepts
 
 - [GNU tar Manual](https://www.gnu.org/software/tar/manual/)
-- [Challenge 54 — Schedule Scripts with Cron](../challenge-54-cron-schedule/README.md)
 - [logrotate](https://linux.die.net/man/8/logrotate) — built-in Linux tool for automatic log rotation and compression
 - [rsync](https://linux.die.net/man/1/rsync) — for incremental remote backups
 
