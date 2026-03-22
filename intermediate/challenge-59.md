@@ -320,8 +320,6 @@ tail -f /var/log/disk_monitor.log
 
 ## 📚 Related Concepts
 
-- [Challenge 54 — Schedule Scripts with Cron](../challenge-54-cron-schedule/README.md)
-- [Challenge 58 — Archive Logs Automatically](../challenge-58-archive-logs/README.md)
 - [GNU awk Manual](https://www.gnu.org/software/gawk/manual/)
 - [logrotate](https://linux.die.net/man/8/logrotate) — prevent logs from consuming all disk space
 - [ncdu](https://dev.yorhel.nl/ncdu) — interactive disk usage analyzer for the terminal
