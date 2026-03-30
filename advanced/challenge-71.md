@@ -2,7 +2,8 @@
 
 ![Bash](https://img.shields.io/badge/Shell-Bash-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
 ![Difficulty](https://img.shields.io/badge/Difficulty-Intermediate-yellow)
-**eknatha**
+
+![Eknatha](https://img.shields.io/badge/Eknatha-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
 
 ## 📌 Overview
 
