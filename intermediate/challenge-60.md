@@ -3,6 +3,8 @@
 ![Bash](https://img.shields.io/badge/Shell-Bash-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
 ![Difficulty](https://img.shields.io/badge/Difficulty-Intermediate-yellow)
 
+![Eknatha](https://img.shields.io/badge/Eknatha-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
+
 ## 📌 Overview
 
 **`rsync`** (Remote Sync) is the gold standard tool for file synchronization and backups in Linux. Unlike `cp` or `tar`, `rsync` is **incremental** — it only transfers files that have changed, making subsequent backups extremely fast and bandwidth-efficient. It works seamlessly for both **local** and **remote** backups over SSH.
