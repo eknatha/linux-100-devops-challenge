@@ -2,7 +2,9 @@
 
 ![Bash](https://img.shields.io/badge/Shell-Bash-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
 ![Difficulty](https://img.shields.io/badge/Difficulty-Intermediate-yellow)
-**eknatha**
+
+![Eknatha](https://img.shields.io/badge/Eknatha-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
+
 ## 📌 Overview
 
 A **firewall** controls which network traffic is allowed to reach your server. **`firewalld`** is the default dynamic firewall manager on RHEL, CentOS, Fedora, and Rocky Linux. It uses the concept of **zones** and **services** to define rules, and supports changes at runtime without interrupting existing connections.
@@ -374,8 +376,6 @@ sudo firewall-cmd --list-all
 
 ## 📚 Related Concepts
 
-- [Challenge 65 — Restrict SSH Access]
-- [Challenge 64 — Configure SSH Keys]
 - [firewalld Documentation](https://firewalld.org/documentation/)
 - [firewall-cmd Man Page](https://linux.die.net/man/1/firewall-cmd)
 - [UFW Guide](https://help.ubuntu.com/community/UFW) — Ubuntu's simpler firewall alternative
