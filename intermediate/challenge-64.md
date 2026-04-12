@@ -2,7 +2,9 @@
 
 ![Bash](https://img.shields.io/badge/Shell-Bash-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
 ![Difficulty](https://img.shields.io/badge/Difficulty-Intermediate-yellow)
-**eknatha**
+
+![Eknatha](https://img.shields.io/badge/Eknatha-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
+
 ## 📌 Overview
 
 **SSH key authentication** replaces password-based login with a cryptographic key pair — a **private key** (kept secret on your local machine) and a **public key** (placed on the remote server). When you connect, the server verifies your identity using the key pair without ever transmitting a password over the network.
@@ -389,8 +391,6 @@ ssh myserver
 
 ## 📚 Related Concepts
 
-- [Challenge 57 — Configure Sudo Access]
-- [Challenge 60 — Backup Using rsync]
 - [OpenSSH Manual](https://www.openssh.com/manual.html)
 - [ssh_config Reference](https://linux.die.net/man/5/ssh_config)
 - [sshd_config Reference](https://linux.die.net/man/5/sshd_config)
