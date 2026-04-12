@@ -2,7 +2,8 @@
 
 ![Bash](https://img.shields.io/badge/Shell-Bash-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
 ![Difficulty](https://img.shields.io/badge/Difficulty-Intermediate-yellow)
-**eknatha**
+
+![Eknatha](https://img.shields.io/badge/Eknatha-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
 
 ## 📌 Overview
 
@@ -445,8 +446,6 @@ sudo ufw enable
 
 ## 📚 Related Concepts
 
-- [Challenge 64 — Configure SSH Keys]
-- [Challenge 57 — Configure Sudo Access]
 - [sshd_config Manual](https://linux.die.net/man/5/sshd_config)
 - [fail2ban](https://www.fail2ban.org/) — automatically bans IPs with repeated failed SSH attempts
 - [UFW Documentation](https://help.ubuntu.com/community/UFW) — Uncomplicated Firewall for IP-level SSH restrictions
