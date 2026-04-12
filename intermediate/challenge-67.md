@@ -2,7 +2,8 @@
 
 ![Bash](https://img.shields.io/badge/Shell-Bash-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
 ![Difficulty](https://img.shields.io/badge/Difficulty-Intermediate-yellow)
-**eknatha**
+
+![Eknatha](https://img.shields.io/badge/Eknatha-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
 
 ## 📌 Overview
 
@@ -406,9 +407,6 @@ sudo systemctl enable --now fail2ban
 
 ## 📚 Related Concepts
 
-- [Challenge 65 — Restrict SSH Access]
-- [Challenge 66 — Configure Firewall]
-- [Challenge 63 — Use journalctl Effectively]
 - [fail2ban](https://www.fail2ban.org/) — automatically ban IPs with repeated failed auth attempts
 - [auditd](https://linux.die.net/man/8/auditd) — advanced Linux audit framework for detailed security logging
 
