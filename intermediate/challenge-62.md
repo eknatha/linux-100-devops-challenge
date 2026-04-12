@@ -3,6 +3,8 @@
 ![Bash](https://img.shields.io/badge/Shell-Bash-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
 ![Difficulty](https://img.shields.io/badge/Difficulty-Intermediate-yellow)
 
+
+![Eknatha](https://img.shields.io/badge/Eknatha-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
 ## 📌 Overview
 
 **`journalctl`** is the command-line interface for **systemd's journal** — the centralized logging system on modern Linux distributions. Unlike traditional log files scattered across `/var/log/`, the journal stores structured, indexed logs from the kernel, services, and applications in a binary format, making it fast and powerful to query.
