@@ -2,7 +2,10 @@
 
 ![Bash](https://img.shields.io/badge/Shell-Bash-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
 ![Difficulty](https://img.shields.io/badge/Difficulty-Intermediate-yellow)
-**eknatha**
+
+![Eknatha](https://img.shields.io/badge/Eknatha-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
+
+
 ## 📌 Overview
 
 **`journalctl`** is the primary tool for querying and displaying logs collected by **systemd's journal daemon** (`systemd-journald`). It collects logs from the kernel, systemd units, applications, and more — all in one centralized, indexed, structured store.
