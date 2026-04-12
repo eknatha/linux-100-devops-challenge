@@ -1,8 +1,10 @@
 # Challenge 68: Check System Load in Linux
 
 ![Bash](https://img.shields.io/badge/Shell-Bash-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
-![Difficulty](https://img.shields.io/badge/Difficulty-Beginner-brightgreen)
-**eknatha**
+![Difficulty](https://img.shields.io/badge/Difficulty-Intermediate-yellow)
+
+![Eknatha](https://img.shields.io/badge/Eknatha-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
+
 
 ## 📌 Overview
 
@@ -399,9 +401,6 @@ kill -9 PID         # Force
 
 ## 📚 Related Concepts
 
-- [Challenge 59 — Monitor Disk Space]
-- [Challenge 63 — Use journalctl Effectively]
-- [Challenge 54 — Schedule Scripts with Cron]
 - [Linux `proc` filesystem](https://linux.die.net/man/5/proc) — raw process and system data
 - [sysstat tools](https://github.com/sysstat/sysstat) — `sar`, `iostat`, `mpstat` and more
 
