@@ -3,6 +3,8 @@
 ![Bash](https://img.shields.io/badge/Shell-Bash-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
 ![Difficulty](https://img.shields.io/badge/Difficulty-Beginner-brightgreen)
 
+![Eknatha](https://img.shields.io/badge/Eknatha-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
+
 ## 📌 Overview
 
 **File permissions** in Linux control who can read, write, and execute files and directories. The `chmod` (**ch**ange **mod**e) command modifies these permissions. The `-R` flag applies changes **recursively** — to a directory and everything inside it, including all subdirectories and files.
