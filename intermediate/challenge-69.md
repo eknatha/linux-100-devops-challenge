@@ -374,8 +374,6 @@ ps aux | awk '$8 == "Z"'
 
 ## 📚 Related Concepts
 
-- [Challenge 68 — Check System Load]
-- [Challenge 59 — Monitor Disk Space]
 - [Linux Process States](https://man7.org/linux/man-pages/man1/ps.1.html)
 - [The `wait()` System Call](https://man7.org/linux/man-pages/man2/wait.2.html) — how parents reap children
 - [proc filesystem](https://man7.org/linux/man-pages/man5/proc.5.html) — `/proc/[PID]/status` for raw process details
