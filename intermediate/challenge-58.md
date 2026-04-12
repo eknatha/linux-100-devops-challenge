@@ -3,6 +3,8 @@
 ![Bash](https://img.shields.io/badge/Shell-Bash-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
 ![Difficulty](https://img.shields.io/badge/Difficulty-Intermediate-yellow)
 
+![Eknatha](https://img.shields.io/badge/Eknatha-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
+
 ## 📌 Overview
 
 **`tar`** (Tape ARchive) is the standard Linux utility for bundling files and directories into a single archive file. Combined with compression tools like `gzip`, `bzip2`, or `xz`, it is the go-to solution for **archiving logs, creating backups, and packaging files** for transfer or storage.
