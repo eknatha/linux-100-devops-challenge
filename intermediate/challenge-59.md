@@ -3,6 +3,8 @@
 ![Bash](https://img.shields.io/badge/Shell-Bash-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
 ![Difficulty](https://img.shields.io/badge/Difficulty-Intermediate-yellow)
 
+![Eknatha](https://img.shields.io/badge/Eknatha-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
+
 ## 📌 Overview
 
 Disk space exhaustion is one of the most common causes of system failures, service crashes, and data loss. Proactively **monitoring disk usage** and alerting when thresholds are exceeded is a critical sysadmin responsibility. Linux provides powerful built-in tools — `df`, `du`, and `awk` — that make it straightforward to build lightweight, effective disk monitoring scripts.
