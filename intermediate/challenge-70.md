@@ -2,7 +2,8 @@
 
 ![Bash](https://img.shields.io/badge/Shell-Bash-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
 ![Difficulty](https://img.shields.io/badge/Difficulty-Intermediate-yellow)
-**eknatha**
+
+![Eknatha](https://img.shields.io/badge/Eknatha-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
 
 ## 📌 Overview
 
@@ -477,9 +478,6 @@ sudo systemctl enable nginx.service
 
 ## 📚 Related Concepts
 
-- [Challenge 62 — Analyze Boot Logs]
-- [Challenge 63 — Use journalctl Effectively]
-- [Challenge 66 — Configure Firewall]
 - [systemd Service Manual](https://www.freedesktop.org/software/systemd/man/systemd.service.html)
 - [systemd Unit File Reference](https://www.freedesktop.org/software/systemd/man/systemd.unit.html)
 - [systemd-analyze](https://www.freedesktop.org/software/systemd/man/systemd-analyze.html) — boot performance analysis tool
