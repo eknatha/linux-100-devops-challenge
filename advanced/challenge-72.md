@@ -2,7 +2,8 @@
 
 ![Bash](https://img.shields.io/badge/Shell-Bash-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
 ![Difficulty](https://img.shields.io/badge/Difficulty-Intermediate-yellow)
-**eknatha**
+
+![Eknatha](https://img.shields.io/badge/Eknatha-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
 
 ## 📌 Overview
 
@@ -451,9 +452,6 @@ free -h
 
 ## 📚 Related Concepts
 
-- [Challenge 68 — Check System Load]
-- [Challenge 71 — Diagnose High CPU Usage]
-- [Challenge 59 — Monitor Disk Space]
 - [Linux OOM Killer](https://www.kernel.org/doc/html/latest/admin-guide/mm/concepts.html)
 - [proc/meminfo Reference](https://www.kernel.org/doc/html/latest/filesystems/proc.html)
 - [smem Documentation](https://www.selenic.com/smem/)
