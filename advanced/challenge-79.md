@@ -2,7 +2,8 @@
 
 ![Bash](https://img.shields.io/badge/Shell-Bash-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
 ![Difficulty](https://img.shields.io/badge/Difficulty-Intermediate-yellow)
-**eknatha**
+
+![Eknatha](https://img.shields.io/badge/Eknatha-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
 
 ## 📌 Overview
 
@@ -515,9 +516,6 @@ sudo systemctl enable myapp.service
 
 ## 📚 Related Concepts
 
-- [Challenge 70 — Debug Failed Services]
-- [Challenge 78 — Debug Application Crash]
-- [Challenge 63 — Use journalctl Effectively]
 - [systemd.service Manual](https://www.freedesktop.org/software/systemd/man/systemd.service.html)
 - [systemd-analyze](https://www.freedesktop.org/software/systemd/man/systemd-analyze.html)
 - [journalctl Manual](https://www.freedesktop.org/software/systemd/man/journalctl.html)
