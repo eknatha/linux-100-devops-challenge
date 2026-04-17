@@ -404,9 +404,6 @@ top
 
 ## 📚 Related Concepts
 
-- [Challenge 68 — Check System Load]
-- [Challenge 69 — Identify Zombie Processes]
-- [Challenge 70 — Debug Failed Services]
 - [perf](https://perf.wiki.kernel.org/) — Linux performance profiling tool
 - [strace](https://man7.org/linux/man-pages/man1/strace.1.html) — trace system calls made by a process
 - [sysstat tools](https://github.com/sysstat/sysstat) — `sar`, `pidstat`, `mpstat`, `iostat`
