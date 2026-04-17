@@ -2,7 +2,9 @@
 
 ![Bash](https://img.shields.io/badge/Shell-Bash-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
 ![Difficulty](https://img.shields.io/badge/Difficulty-Advanced-red)
-**eknatha**
+
+![Eknatha](https://img.shields.io/badge/Eknatha-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
+
 
 ## 📌 Overview
 
@@ -414,10 +416,6 @@ sar -d
 
 ## 📚 Related Concepts
 
-- [Challenge 68 — Check System Load]
-- [Challenge 71 — Diagnose High CPU Usage]
-- [Challenge 72 — Diagnose High Memory Usage]
-- [Challenge 73 — Disk Space Issue]
 - [fio](https://fio.readthedocs.io/) — flexible I/O tester for production benchmarking
 - [blktrace](https://linux.die.net/man/8/blktrace) — block layer I/O tracing
 - [S.M.A.R.T. / smartctl](https://linux.die.net/man/8/smartctl) — disk health monitoring
