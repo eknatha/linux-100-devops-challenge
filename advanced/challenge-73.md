@@ -2,7 +2,9 @@
 
 ![Bash](https://img.shields.io/badge/Shell-Bash-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
 ![Difficulty](https://img.shields.io/badge/Difficulty-Intermediate-yellow)
-**eknatha**
+
+![Eknatha](https://img.shields.io/badge/Eknatha-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
+
 
 ## 📌 Overview
 
@@ -442,9 +444,6 @@ df -h
 
 ## 📚 Related Concepts
 
-- [Challenge 59 — Monitor Disk Space Alert]
-- [Challenge 58 — Archive Logs Automatically]
-- [Challenge 63 — Use journalctl Effectively]
 - [ncdu](https://dev.yorhel.nl/ncdu) — interactive ncurses disk usage analyzer
 - [logrotate](https://linux.die.net/man/8/logrotate) — automated log rotation and compression
 - [GNU df Manual](https://www.gnu.org/software/coreutils/manual/html_node/df-invocation.html)
