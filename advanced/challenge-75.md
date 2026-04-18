@@ -2,7 +2,8 @@
 
 ![Bash](https://img.shields.io/badge/Shell-Bash-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
 ![Difficulty](https://img.shields.io/badge/Difficulty-Intermediate-yellow)
-**eknatha**
+
+![Eknatha](https://img.shields.io/badge/Eknatha-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
 
 
 ## 📌 Overview
@@ -314,39 +315,6 @@ netstat -i
 
 ---
 
-### Example 12 — Network Latency Baseline and Alerting Script
-
-```bash
-#!/bin/bash
-
-TARGET="google.com"
-THRESHOLD=50           # ms — alert if avg RTT exceeds this
-LOSS_THRESHOLD=5       # % — alert if packet loss exceeds this
-LOGFILE="/var/log/network_latency.log"
-DATE=$(date +"%Y-%m-%d %H:%M:%S")
-
-# Run ping test
-PING_OUTPUT=$(ping -c 10 -q "$TARGET" 2>&1)
-AVG_RTT=$(echo "$PING_OUTPUT" | grep "rtt" | awk -F'/' '{print $5}')
-LOSS=$(echo "$PING_OUTPUT" | grep "packet loss" | awk '{print $6}' | tr -d '%')
-
-if [ -z "$AVG_RTT" ]; then
-  echo "[$DATE] ❌ UNREACHABLE: Cannot ping $TARGET" | tee -a "$LOGFILE"
-  exit 1
-fi
-
-# Evaluate results
-if (( $(echo "$AVG_RTT > $THRESHOLD" | bc -l) )); then
-  echo "[$DATE] ⚠️  HIGH LATENCY: ${AVG_RTT}ms avg to $TARGET (threshold: ${THRESHOLD}ms)" | tee -a "$LOGFILE"
-elif [ "$LOSS" -gt "$LOSS_THRESHOLD" ]; then
-  echo "[$DATE] ⚠️  PACKET LOSS: ${LOSS}% to $TARGET (threshold: ${LOSS_THRESHOLD}%)" | tee -a "$LOGFILE"
-else
-  echo "[$DATE] ✅ OK: ${AVG_RTT}ms avg, ${LOSS}% loss to $TARGET" >> "$LOGFILE"
-fi
-```
-
----
-
 ## 🗂️ Interpreting `mtr` Results — Pattern Guide
 
 | `mtr` Pattern | Meaning | Action |
@@ -445,8 +413,6 @@ iperf3 -c iperf.he.net      # Test against a public iperf server
 
 ## 📚 Related Concepts
 
-- [Challenge 66 — Configure Firewall]
-- [Challenge 74 — Disk Latency Analysis]
 - [iperf3](https://iperf.fr/) — bandwidth measurement between two hosts
 - [tcpdump](https://www.tcpdump.org/) — packet capture for detailed network analysis
 - [Wireshark](https://www.wireshark.org/) — GUI packet analyzer
