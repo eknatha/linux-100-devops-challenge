@@ -2,7 +2,9 @@
 
 ![Bash](https://img.shields.io/badge/Shell-Bash-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
 ![Difficulty](https://img.shields.io/badge/Difficulty-Advanced-red)
-**eknatha**
+
+![Eknatha](https://img.shields.io/badge/Eknatha-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
+
 ## 📌 Overview
 
 Application crashes are among the most disruptive events in a Linux environment — they can bring down services, corrupt data, and leave no obvious trace of what went wrong. Effective crash investigation requires knowing **where to look**: the systemd journal, the kernel ring buffer, application logs, core dumps, and signal handling all tell different parts of the story.
@@ -497,9 +499,6 @@ journalctl -u myapp.service -f
 
 ## 📚 Related Concepts
 
-- [Challenge 70 — Debug Failed Services]
-- [Challenge 72 — Diagnose High Memory Usage]
-- [Challenge 77 — Analyze System Calls]
 - [gdb Manual](https://sourceware.org/gdb/documentation/)
 - [valgrind](https://valgrind.org/) — memory error detector for C/C++ applications
 - [coredumpctl Manual](https://www.freedesktop.org/software/systemd/man/coredumpctl.html)
