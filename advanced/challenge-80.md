@@ -2,7 +2,9 @@
 
 ![Bash](https://img.shields.io/badge/Shell-Bash-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
 ![Difficulty](https://img.shields.io/badge/Difficulty-Intermediate-yellow)
-**eknatha**
+
+
+![Eknatha](https://img.shields.io/badge/Eknatha-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
 
 ## 📌 Overview
 
@@ -441,10 +443,6 @@ journalctl --since "2025-03-21 10:30:00" --until "2025-03-21 10:45:00" -p warnin
 
 ## 📚 Related Concepts
 
-- [Challenge 62 — Analyze Boot Logs]
-- [Challenge 63 — Use journalctl Effectively]
-- [Challenge 67 — Monitor Authentication Logs]
-- [Challenge 78 — Debug Application Crash]
 - [logrotate](https://linux.die.net/man/8/logrotate) — automated log rotation and retention
 - [GoAccess](https://goaccess.io/) — real-time web log analyzer
 - [ELK Stack](https://www.elastic.co/elastic-stack) — Elasticsearch + Logstash + Kibana for large-scale log analysis
