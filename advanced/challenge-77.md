@@ -2,7 +2,8 @@
 
 ![Bash](https://img.shields.io/badge/Shell-Bash-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
 ![Difficulty](https://img.shields.io/badge/Difficulty-Advanced-red)
-**eknatha**
+
+![Eknatha](https://img.shields.io/badge/Eknatha-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
 
 ## 📌 Overview
 
@@ -331,45 +332,6 @@ read(7, "SELECT * FROM users\n", 4096) = 20 <0.000015>
 write(7, "ERROR: timeout\n", 15) = 15 <0.000009>
 ```
 
----
-
-### Example 12 — Full Debugging Script
-
-```bash
-#!/bin/bash
-
-PID=$1
-DURATION=30
-OUTPUT="/tmp/strace_$(date +%Y%m%d_%H%M%S)_pid${PID}.txt"
-
-if [ -z "$PID" ]; then
-  echo "Usage: $0 <PID>"
-  exit 1
-fi
-
-echo "Tracing PID $PID for ${DURATION}s → $OUTPUT"
-
-# Trace with timestamps, follow children, capture all output
-timeout "$DURATION" strace \
-  -f \
-  -T \
-  -tt \
-  -s 256 \
-  -o "$OUTPUT" \
-  -p "$PID" 2>&1
-
-echo ""
-echo "=== Syscall Summary ==="
-strace -c -o /dev/null -p "$PID" &
-STRACE_PID=$!
-sleep 10
-kill "$STRACE_PID" 2>/dev/null
-
-echo ""
-echo "Full trace saved to: $OUTPUT"
-echo "Top errors:"
-grep "= -1" "$OUTPUT" | awk '{print $NF}' | sort | uniq -c | sort -rn | head -10
-```
 
 ---
 
@@ -466,9 +428,6 @@ grep "= -1" /tmp/full_trace.txt | awk '{print $NF}' | sort | uniq -c | sort -rn
 
 ## 📚 Related Concepts
 
-- [Challenge 71 — Diagnose High CPU Usage]
-- [Challenge 74 — Disk Latency Analysis]
-- [Challenge 76 — Capture Network Traffic]
 - [ltrace](https://linux.die.net/man/1/ltrace) — library call tracer (user-space equivalent of strace)
 - [bpftrace](https://bpftrace.org/) — modern low-overhead tracing using eBPF
 - [perf](https://perf.wiki.kernel.org/) — Linux performance profiling framework
