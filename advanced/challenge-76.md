@@ -2,7 +2,9 @@
 
 ![Bash](https://img.shields.io/badge/Shell-Bash-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
 ![Difficulty](https://img.shields.io/badge/Difficulty-Advanced-red)
-**eknatha**
+
+
+![Eknatha](https://img.shields.io/badge/Eknatha-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
 
 ## 📌 Overview
 
@@ -450,9 +452,6 @@ sudo tcpdump -r /tmp/debug_*.pcap -nn 'tcp[tcpflags] & tcp-rst != 0'
 
 ## 📚 Related Concepts
 
-- [Challenge 75 — Debug Network Latency]
-- [Challenge 66 — Configure Firewall]
-- [Challenge 67 — Monitor Authentication Logs]
 - [Wireshark](https://www.wireshark.org/) — GUI companion to tcpdump for deep packet analysis
 - [tshark](https://www.wireshark.org/docs/man-pages/tshark.html) — Wireshark's CLI for advanced protocol dissection
 - [BPF Filter Syntax](https://www.tcpdump.org/manpages/pcap-filter.7.html) — full BPF expression reference
