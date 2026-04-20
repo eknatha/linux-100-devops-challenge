@@ -3,6 +3,7 @@
 ![Bash](https://img.shields.io/badge/Shell-Bash-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
 ![Difficulty](https://img.shields.io/badge/Difficulty-Intermediate-yellow)
 
+![Eknatha](https://img.shields.io/badge/Eknatha-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
 ## 📌 Overview
 
 **`sudo`** (Super User Do) allows permitted users to run commands as the root user or another user, as defined by the security policy. Instead of logging in as root — which is a security risk — `sudo` grants **controlled, audited, temporary elevated privileges**.
