@@ -3,6 +3,8 @@
 ![Bash](https://img.shields.io/badge/Shell-Bash-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
 ![Difficulty](https://img.shields.io/badge/Difficulty-Intermediate-yellow)
 
+![Eknatha](https://img.shields.io/badge/Eknatha-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
+
 ## 📌 Overview 
 
 **Password policy** in Linux controls how passwords age, expire, and are enforced across user accounts. The primary tool for managing password aging is `chage` (**ch**ange **age**), which works by modifying the `/etc/shadow` file. A strong password policy is a critical pillar of Linux system security.
