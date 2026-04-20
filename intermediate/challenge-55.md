@@ -3,6 +3,8 @@
 ![Bash](https://img.shields.io/badge/Shell-Bash-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
 ![Difficulty](https://img.shields.io/badge/Difficulty-Intermediate-yellow)
 
+![Eknatha](https://img.shields.io/badge/Eknatha-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
+
 ## 📌 Overview
 
 User and group management is a core part of **Linux system administration**. Linux uses a permission model where every file and process is owned by a **user** and belongs to a **group**. Managing users and groups lets you control **who can access what** on the system — a fundamental principle of security and multi-user environments.
