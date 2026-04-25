@@ -3,6 +3,8 @@
 ![Bash](https://img.shields.io/badge/Shell-Bash-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
 ![Difficulty](https://img.shields.io/badge/Difficulty-Intermediate-yellow)
 
+![Eknatha](https://img.shields.io/badge/Eknatha-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
+
 ## 📌 Overview
 
 **Cron** is a time-based job scheduler built into Unix/Linux systems. It allows you to **automate scripts and commands** to run at fixed times, dates, or intervals — without any manual trigger. The scheduled jobs are called **cron jobs**, and they are managed through a configuration file called the **crontab**.
