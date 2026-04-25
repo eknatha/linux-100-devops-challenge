@@ -3,6 +3,8 @@
 ![Bash](https://img.shields.io/badge/Shell-Bash-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
 ![Difficulty](https://img.shields.io/badge/Difficulty-Beginner-brightgreen)
 
+![Eknatha](https://img.shields.io/badge/Eknatha-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
+
 ## 📌 Overview
 
 Conditional statements in Bash let your script **make decisions** based on conditions — checking whether files exist, comparing numbers, evaluating strings, and more. The primary construct is the `if` statement, which can be extended with `elif` and `else` for branching logic.
